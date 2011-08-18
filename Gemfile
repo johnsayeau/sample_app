@@ -1,9 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'gravatar_image_tag', '1.0.0.pre2'
 
 gem 'sqlite3', '1.3.3'
 group :development do
@@ -19,6 +17,7 @@ group :test do
   gem 'autotest-rails-pure', '4.1.2'
   gem 'autotest-fsevent', '0.2.4'
   gem 'autotest-growl', '0.2.9'
+  gem 'factory_girl_rails', '1.0'
 end
 
 # Use unicorn as the web server
